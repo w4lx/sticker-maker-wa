@@ -1,6 +1,6 @@
 {
   "name": "sticker-maker-wa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
     "whatsapp-stickers",
@@ -9,6 +9,9 @@
     "whatsapp",
     "stickers"
   ],
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "Easy-to-use sticker maker for WhatsApp.",
@@ -20,5 +23,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w4lx/sticker-maker-wa.git"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "^5.2.0"
   }
 }
